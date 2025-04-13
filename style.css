@@ -22,7 +22,6 @@ nav{
 }
 .hero-overlay {
   background-color: rgba(0, 0, 0, 0.5); /* optional dark overlay */
-  padding: 2rem;
   width: 100%;
 }
 
@@ -63,7 +62,7 @@ input {
 }
 
 button {
-  width: 94%;
+  /* width: 94%; */
   padding: 10px;
   margin-top: 10px;
   background-color: rgb(0, 194, 113);
@@ -85,4 +84,43 @@ button:disabled {
 .about-section img{
   width: 500px !important;
   border-radius: 5px;
+}
+
+
+/* cta-banner */
+
+.cta-banner{
+  background-image: url(image/cta-banner.png);
+  border-radius: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px 32px;
+  color: white;
+  font-family: var(--main-font);
+}
+
+.white-btn{
+  background-color: white;
+  color: black;
+  padding: 12px 28px;
+  border: 1px solid white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.container {
+  padding: 20px;
+}
+
+.book-now{
+  background-color: rgb(247, 245, 242);
+}
+
+.book-now p{
+  color: rgb(16, 16, 16);
 }
