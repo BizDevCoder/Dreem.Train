@@ -124,3 +124,9 @@ button:disabled {
 .book-now p{
   color: rgb(16, 16, 16);
 }
+
+.footer{
+  font-size: 14px;
+  padding-left: 180px;
+  background-color: #0d1b2a;
+}
