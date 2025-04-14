@@ -97,7 +97,6 @@ button:disabled {
   background-size: cover;
   padding: 64px 32px;
   color: white;
-  font-family: var(--main-font);
 }
 
 .white-btn{
@@ -134,10 +133,24 @@ button:disabled {
 /* Responsive */
 @media only screen and (min-device-width : 360px) and (max-device-width : 480px) {
   .container-fluid img{
-    width: 160px  ;
+    width: 160px;
   }
   .about-section{
-    padding: 0px 0px;
+    font-size: 12px;
+    padding: 40px 0px;
+  } 
+
+  .object{
+    width: 350px;
   }
+
+  .footer{
+    font-size: 12px;
+  }
+
+  #book-now h4{
+    font-size: 14px;
+  }
+
 }
 
